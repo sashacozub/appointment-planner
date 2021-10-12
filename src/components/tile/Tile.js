@@ -1,9 +1,5 @@
-import React from "react";
+import React from 'react';
 
-export const Tile = () => {
-  return (
-    <div className="tile-container">
-      
-    </div>
-  );
+export const Tile = ({ object }) => {
+  return <div className='tile-container'>{object.map((param) => {})}</div>;
 };
