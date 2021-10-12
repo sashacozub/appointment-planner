@@ -6,8 +6,8 @@
 
 This is a challenge project from [Codecademy.com](https://www.codecademy.com/).
 Instead of a step-by-step tutorial, this project contained a series of open-ended requirements which described the project.
-The starting app had the components premade, including the React Router. My job was to implement the logic and make the app actually work.
-This is my approach to the given tasks.
+The starting app had the boilerplates for the components premade, as well as basic React Router set up ahead.
+My task was to implement the logic and make the app actually work. This is my approach to the given tasks.
 
 <!-- Here is the [live version](https://www.---.com/) of it. -->
 
