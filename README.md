@@ -1,8 +1,5 @@
 # Appointment Planner
 
-![Project Preview](https://i.imgur.com/fisLV2e.png?1)
-![Project Preview](https://i.imgur.com/kNIju7k.png?1)
-
 ## Project details
 
 This is a challenge project from [Codecademy.com](https://www.codecademy.com/).
@@ -35,3 +32,10 @@ The following is the app's component diagram:
 
 - ReactJS
 - React Router
+
+---
+
+## App Preview
+
+![Project Preview](https://i.imgur.com/fisLV2e.png?1)
+![Project Preview](https://i.imgur.com/kNIju7k.png?1)
