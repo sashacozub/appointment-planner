@@ -41,7 +41,7 @@ export const AppointmentsPage = ({
       <hr />
       <section>
         <h2>Appointments</h2>
-        <TileList data={appointments} />
+        <TileList tiles={appointments} />
       </section>
     </div>
   );

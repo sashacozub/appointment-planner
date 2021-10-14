@@ -22,6 +22,8 @@ export const ContactsPage = ({ contacts, addContact }) => {
     contacts.forEach((contact) => {
       if (contact.name === name) {
         setDuplicateName(true);
+      } else {
+        setDuplicateName(false);
       }
     });
   }, [contacts, name]);
@@ -29,7 +31,7 @@ export const ContactsPage = ({ contacts, addContact }) => {
   return (
     <div>
       <section>
-        <h2>Add Contact</h2>
+        <h2>Add Contact {duplicateName ? ' - Name already exists!' : ''}</h2>
         <ContactForm
           name={name}
           setName={setName}
@@ -37,13 +39,13 @@ export const ContactsPage = ({ contacts, addContact }) => {
           setPhone={setPhone}
           email={email}
           setEmail={setEmail}
-          onSubmit={handleSubmit}
+          handleSubmit={handleSubmit}
         />
       </section>
       <hr />
       <section>
         <h2>Contacts</h2>
-        <TileList data={contacts} />
+        <TileList tiles={contacts} />
       </section>
     </div>
   );
