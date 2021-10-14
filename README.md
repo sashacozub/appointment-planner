@@ -1,6 +1,7 @@
 # Appointment Planner
 
-<!-- ![Project Preview](https://i.imgur.com/---.png) -->
+![Project Preview](https://i.imgur.com/fisLV2e.png?1)
+![Project Preview](https://i.imgur.com/kNIju7k.png?1)
 
 ## Project details
 
